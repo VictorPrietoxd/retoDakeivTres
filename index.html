@@ -12,80 +12,94 @@
 
 <body>
     <header>
-        <h1>Dakeiv</h1>
+       <div class="title"> <h1>Dakeiv</h1></div>
         <main>
-            <h2>Hola, mi nombre es Victor Prieto</h2>
+            <div class="infoMain"><h2>Hola, mi nombre <br> es Victor Prieto</h2></div>
         </main>
     </header>
-    <section> Sobre mi
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, laudantium.</p>
-        <button>Ver mi CV</button>
+    <section class="sobreMi">
+         <h1>Sobre Mi</h1>
+        <div class="parrafoSM">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repudiandae, quidem earum modi totam fugiat nam animi saepe dolorum soluta molestiae nulla dignissimos, autem voluptate veritatis. Vitae magni voluptatibus ipsam eveniet. Nesciunt recusandae, illum dolore voluptate neque ullam amet qui doloribus et dicta omnis, quos nam tempora eius quidem dolores ducimus quam impedit incidunt minus dolorem, sint inventore suscipit temporibus. Pariatur quos deserunt veritatis temporibus iste, enim praesentium suscipit minima nobis. Consectetur voluptatibus hic recusandae mollitia consequatur? Possimus eligendi aspernatur molestias cum magni, quos quod temporibus quo suscipit voluptas impedit similique dolores eum beatae fugit maxime velit facilis maiores quibusdam assumenda adipisci omnis consequatur sequi. Iusto aut deleniti dicta quidem quod consequatur necessitatibus magni reiciendis labore, repellendus fugiat, voluptates culpa quibusdam quasi facere vel esse fuga soluta harum odio laborum, laudantium aliquam praesentium. Voluptate ipsum adipisci accusantium fuga. Quia cumque placeat eligendi ipsam error neque ullam minima nemo esse provident? Nulla, vel! Quaerat sequi ipsum blanditiis eaque a dolore sit nulla, maxime nam quo id eligendi accusantium ipsam aspernatur repellat cumque fuga culpa. Optio ducimus placeat quis, ullam, dolorum explicabo reiciendis incidunt voluptatibus mollitia esse cupiditate officia harum labore velit magni blanditiis ab et dolores sit natus deleniti, similique asperiores. <br>
+            <button class="btnCv">Ver CV</button></div>
+        
     </section>
-    <section> <h1>Mis skills</h1>
+
+    <section class="sectionSkills">
+         <h1>Mis skills</h1>
+
+        <div class="skills">
         <article>
-            <label for="htmlSkill">HTML</label>
-            <progress id="htmlSkill" max="100" value="50"> </progress>
+            <label for="">HTML</label>
+            <progress max="100" value="50"> </progress>
         </article>
 
         <article>
-            <label for="cssSkill">CSS</label>
-            <progress id="cssSkill" max="100" value="50"> </progress>
+            <label for="">CSS</label>
+            <progress max="100" value="50"> </progress>
         </article>
 
         <article>
-            <label for="javascriptSkill">JAVASCRIPT</label>
-            <progress id="javacriptSkill" max="100" value="50"> </progress>
+            <label for="">JAVASCRIPT</label>
+            <progress max="100" value="50"> </progress>
         </article>
 
         <article>
             <label for="vueSkill">VUE</label>
-            <progress id="vueSkill" max="100" value="50"> </progress>
+            <progress max="100" value="50"> </progress>
         </article>
 
         <article>
             <label for="flexboxSkill">FLEXBOX</label>
-            <progress id="flexboxSkill" max="100" value="50"> </progress>
+            <progress max="100" value="50"> </progress>
         </article>
 
         <article>
             <label for="gridSkill">GRID</label>
-            <progress id="gridSkill" max="100" value="50"> </progress>
+            <progress max="100" value="50"> </progress>
         </article>
+    </div>
     </section>
 
-    <section> <h1>Portafolio</h1>
-        <article style="height: 50px; width: 50px; background-color: blue;"></article>
-        <br>
-        <article style="height: 50px; width: 50px; background-color: blue;"></article>
-        <br>
-        <article style="height: 50px; width: 50px; background-color: blue;"></article>
-        <br>
-        <article style="height: 50px; width: 50px; background-color: blue;"></article>
-        <br>
-        <article style="height: 50px; width: 50px; background-color: blue;"></article>
-        <br>
-        <article style="height: 50px; width: 50px; background-color: blue;"></article>
+
+
+    <section class="portafolio">
+         <h1>Portafolio</h1>
+         <div class="controlPortafolio">
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>    
+        <article></article>
+        <article></article>
+        <article></article>
+        </div>
     </section>
 
-    <section> <h1>Clientes</h1>
-        <article style="height: 50px; width: 150px; background-color: red;"></article>
-        <br>
-        <article style="height: 50px; width: 150px; background-color: red;"></article>
-        <br>
-        <article style="height: 50px; width: 150px; background-color: red;"></article>
-        <br>
-        <article style="height: 50px; width: 150px; background-color: red;"></article>
+    <section class="sectionClientes">
+         <h1>Clientes</h1>
+         <div class="controlClientes">
+        <article></article>
+
+        <article></article>
+
+        <article></article>
+
+        <article></article>
+    </div>
     </section>
 
-    <section>
-        <form action="">
-            <input placeholder="Nombre" type="text">
-            <input placeholder="Apellido" type="text">
-            <input placeholder="Email" type="email">
-            <input placeholder="Telefono" type="number">
-            <textarea resise name="" id="" cols="30" rows="5"></textarea>
+    <section class="formSection">
+        <h1>Contacto</h1>
+        <form class="controlForm" action="">
+            <input class="share" placeholder="Nombre" type="text">
+            <input class="share" placeholder="Apellido" type="text">
+            <input class="share" placeholder="Email" type="email">
+            <input class="share" placeholder="Telefono" type="number">
+            <textarea placeholder="Descripcion" name="" id="" cols="30" rows="5"></textarea>
             <button type="submit">Enviar</button>
         </form>
-    </section>
+    </section>  
 </body>
 </html>
