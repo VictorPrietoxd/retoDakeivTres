@@ -1,0 +1,209 @@
+header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./../pls.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .title{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 90%;
+    font-size: 2em;
+    color: white;
+}
+
+header main{
+    display: flex;
+    align-items:flex-end;
+    height: 50%;
+    width: 60%;
+
+}
+
+header main .infoMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:left;
+    height: 50%;
+    width: 43%;
+    font-size: 2em;
+    color: white;
+    background-color: #729afe50;
+    border-radius: 10px;
+}
+
+.sobreMi{
+    height: 100vh;
+    width: 100vw;
+    background-color: #7299FE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sobreMi h1{
+    font-size: 4em;
+    color: #1D06A7;
+}
+
+
+.sobreMi .parrafoSM{
+width: 85%;
+height: 65%;
+line-height: 2em;
+font-size: 1.1em;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.sobreMi .parrafoSM .btnCv{
+    height: 15%;
+    width: 15%;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    background-color: #D16FFF;
+    color: white;
+}
+
+.sectionSkills{
+    height: 100vh;
+    width: 100vw;
+    background-color:#9122FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sectionSkills h1{
+    font-size: 4em;
+    color: #26CC4B;
+}
+
+.sectionSkills .skills{
+    height: 75%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.sectionSkills .skills article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 25%;
+    width: 45%;
+    font-size: 2em;
+    color: white;
+}
+
+.sectionSkills .skills article progress{
+    height: 50%;
+    width: 100%;
+}
+
+.portafolio {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFD233;
+    font-size: 2.5em;
+    color: #00AD84;
+}
+
+.portafolio .controlPortafolio{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.portafolio .controlPortafolio article{
+    height: 25%;
+    width: 23%;
+    background-color: wheat;
+}
+
+.sectionClientes{
+    height: 30vh;
+    width: 100vw;
+    background-color: #3F4E62;
+    color: #ADFF28;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sectionClientes .controlClientes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+    width: 60%;
+}
+
+ .sectionClientes .controlClientes article{
+     height: 50%;
+     width: 20%;
+     background-color: red;
+ }
+
+.formSection{
+    height: 70vh;
+    width: 100vw;
+    background-color: #1687A0;
+    color: #FF1B1B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2em;
+}
+
+.formSection .controlForm{
+    height: 90%;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.formSection .controlForm .share{
+    width: 40%;
+    height: 15%;
+
+}
+
+.formSection .controlForm textarea{
+    width: 90%;
+    align-self: center;
+}
+
+.formSection .controlForm button{
+    height: 10%;
+    width:12%;
+    background-color: #233451;
+    color: white;
+    border: none;
+}
